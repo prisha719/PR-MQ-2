@@ -14,8 +14,6 @@ html body {
     padding: 0 15px;
 }
 
-
-
 .d-flex {
     display: flex;
 }
@@ -82,7 +80,6 @@ header {
     background-color: #fff;
     width: 100%;
     padding: .5rem 0;
-    box-shadow: 0 12px 6px #0000000f;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -399,8 +396,8 @@ header .menu:hover nav ul {
 }
 
 .about h4 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .about h2 {
@@ -437,7 +434,24 @@ header .menu:hover nav ul {
     width: 25%;
 }
 
-.about span {}
+.about span {
+    color: #000;
+}
+.about p{
+    color: #b9b9b9;
+    font-weight: 700;
+    display: flex;
+
+}
+
+.fa-solidfa-tag i{
+    color:#b9b9b9 ;
+}
+
+.life{
+    color: #b9b9b9;
+}
+
 
 /* about section end */
 
