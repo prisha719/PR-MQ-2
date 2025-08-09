@@ -383,6 +383,22 @@ header .menu:hover nav ul {
     color: #fff;
 }
 
+.img-section {
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    margin: 20px;
+
+}
+
+.img-section img{
+    padding: 20px;
+    justify-content: center;
+    margin: 2px;
+}
+
 /* portfolio section end */
 
 /* about section start */
@@ -437,18 +453,19 @@ header .menu:hover nav ul {
 .about span {
     color: #000;
 }
-.about p{
+
+.about p {
     color: #b9b9b9;
     font-weight: 700;
     display: flex;
 
 }
 
-.fa-solidfa-tag i{
-    color:#b9b9b9 ;
+.fa-solidfa-tag i {
+    color: #b9b9b9;
 }
 
-.life{
+.life {
     color: #b9b9b9;
 }
 
